@@ -1,0 +1,64 @@
+.doctor-list .row-list {}
+.doctor-list .row-list > div{height:6rem;overflow:hidden;padding:0.5rem 0;color: #fff;}
+.doctor-list .row-list .item-pic {line-height: 7rem;}
+.doctor-list .row-list img{}
+.doctor-list .row-list .content p{margin: 0.3rem;}
+.doctor-list .row-list .content b{color:#333333}
+.doctor-list .row-list .options {
+	line-height: 6rem;
+	text-align: center;
+}
+.doctor-list .options .inquiry {
+	padding: 0.8rem 14%;
+	border-radius: 16px;
+	display: inline-block;
+	border: 1px solid;
+	line-height: 1rem;
+	font-size: 1.4rem;
+}
+
+
+.doctor-view .article-content {min-height:6rem;}
+.doctor-view .user-info{
+  height: 12rem;
+  line-height: 12rem;
+}
+.doctor-view .user-info .profile{text-align:center;padding:1rem;height: calc(100% - 4rem);}
+.doctor-view .user-info .profile > div {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0.2rem 0;
+}
+.doctor-view .user-info .profile .user-photo{
+	height: 6.4rem;
+}
+.doctor-view .user-info .profile .user-photo span {
+  border-radius: 20rem;
+  display: inline-block;
+  height: 6rem;
+  margin: 0.2rem;
+  width: 6rem;
+}
+.doctor-view .user-info .profile .user-photo span img{
+	max-height: 100%;
+}
+.doctor-view .user-info .profile .user-lable-name{color: #ffffff;}
+.doctor-view .user-info .profile .user-status{color: #ffffff;font-size: 0.8rem;}
+.doctor-view .user-photo{}
+.doctor-view .user-lable-name{}
+.doctor-view .user-status{}
+.doctor-view .bottom-menu {
+	text-align: center;
+	padding: 15px 0;
+}
+.doctor-view h3.title.left-line1::after {
+  background-color: #ff762b;
+}
+.doctor-view h3.title.left-line2::after {
+  background-color: #2abaf8;
+}
+.doctor-view h3.title.left-line3::after {
+  background-color: #71da23;
+}
+.doctor-view .contents{width: 92%;padding:10px 4%;background-color:#ffffff;}
+.doctor-view .article-content {color:#333333;font-size:1rem;min-height: 4rem;}
