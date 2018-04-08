@@ -6,6 +6,7 @@
 
 require.js加载的模块，采用AMD规范。也就是说，模块必须按照AMD的规定来写。
 Test.js:
+```javascript
     　　define(function (){
     　　　　var add = function (x,y){
     　　　　　　return x+y;
@@ -15,6 +16,7 @@ Test.js:
     　　　　};
     　　});
 加载方式
+```javascript
     　　require(['test'], function (test){
     　　　　alert(test.add(1,1));
     　　});
