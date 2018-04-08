@@ -15,11 +15,13 @@ Test.js:
     　　　　　　add: add
     　　　　};
     　　});
+```
 加载方式
 ```javascript
     　　require(['test'], function (test){
     　　　　alert(test.add(1,1));
     　　});
+```
 # 脚手架目录结构
 - index.html 主页面
 - main.js  主程序
